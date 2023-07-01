@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="insurance.UserControls.Materials"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:insurance.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="370" d:DesignWidth="1070">
+    <Grid>
+        <Border Height="350" Width="1050" CornerRadius="20" Background="Black">
+            <Border Height="345" Width="1045" CornerRadius="20" Background="White" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <Label/>
+                    <Image x:Name="Img" Width="330" Height="330" MouseDown="Img_MouseDown"></Image>
+                    <Label/>
+                    <TextBlock x:Name="SomeText" Width="690" Height="330" MouseDown="TextBlock_MouseDown" TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </Border>
+
+        </Border>
+    </Grid>
+</UserControl>

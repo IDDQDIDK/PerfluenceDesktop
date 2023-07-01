@@ -1,0 +1,32 @@
+﻿<Page x:Class="insurance.Pages.Scout.AddPost"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:insurance.Pages.Scout"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AddPost" FontFamily="Comic Sans MS" FontSize="20">
+
+    <Grid>
+        <Grid Height="290" Width="290" Background="Black">
+            <Grid Height="285" Width="285" Background="White">
+                <Button x:Name="Close" Width="50" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Close_Click">X</Button>
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="150">Блоггер:</TextBlock>
+                        <ComboBox x:Name="Blogger" Width="100" Foreground="Black"></ComboBox>
+                    </StackPanel>
+                    <Label/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="150">Ссылка:</TextBlock>
+                        <TextBox x:Name="Link" Width="100" Foreground="Black"></TextBox>
+                    </StackPanel>
+                    <Label/>
+                    <Button x:Name="Add" Click="Add_Click" Cursor="">Добавить</Button>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

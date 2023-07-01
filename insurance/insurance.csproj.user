@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Scout\AboutPost.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Scout\AboutProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Scout\AddPost.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Scout\Project.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Senior\MainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Senior\Payouts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Senior\Requests.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Senior\Scouts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Materials.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Payouts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Post.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Project.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ReportProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Requests.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Scouts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Authorization.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\PrintAgreement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\PrintReport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\Scout\AboutPost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Scout\AboutProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Scout\AddPost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Scout\Project.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Senior\MainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Senior\Payouts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Senior\Requests.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Senior\Scouts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Materials.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Payouts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Post.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Project.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ReportProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Requests.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Scouts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Authorization.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\PrintAgreement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\PrintReport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

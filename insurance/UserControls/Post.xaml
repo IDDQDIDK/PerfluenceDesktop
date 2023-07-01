@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="insurance.UserControls.Post"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:insurance.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="270" d:DesignWidth="400" FontSize="20" FontFamily="Comic Sans MS">
+    <Grid Height="270" Width="400">
+        <Border Height="260" Width="390" CornerRadius="20" Background="Black">
+            <Border Height="255" Width="385" CornerRadius="20" Background="White">
+                <StackPanel VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" MouseDown="StackPanel_MouseDown">
+                        <Image x:Name="Img" Width="140" Height="140"/>
+                        <Label/>
+                        <StackPanel>
+                            <TextBlock x:Name="Title">Название канала</TextBlock>
+                            <Label/>
+                            <TextBlock x:Name="Date">Дата поста</TextBlock>
+                            <Label Height="40"/>
+                            <Button x:Name="Check" Click="Check_Click">✔</Button>
+                        </StackPanel>
+                    </StackPanel>
+                    <Label/>
+                    <TextBlock x:Name="Link" MouseDown="Link_MouseDown" TextWrapping="Wrap" TextDecorations="Underline" Foreground="LightBlue">Ссылка</TextBlock>
+                </StackPanel>
+            </Border>
+
+        </Border>
+    </Grid>
+</UserControl>

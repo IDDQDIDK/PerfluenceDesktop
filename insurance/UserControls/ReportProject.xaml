@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="insurance.UserControls.ReportProject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:insurance.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="600" FontSize="20" FontFamily="Times New Roman">
+    <Grid Height="100" Width="600">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Image x:Name="Img" Width="90" Height="90"></Image>
+            <Label/>
+            <StackPanel Width="400">
+                <TextBlock x:Name="Title">Название проекта:</TextBlock>
+                <TextBlock x:Name="Company">Название компании:</TextBlock>
+                <TextBlock x:Name="Quantity">Количество объявлений:</TextBlock>
+                <TextBlock x:Name="When">Дата начала проекта:</TextBlock>
+            </StackPanel>
+            <Label/>
+            <StackPanel>
+                <TextBlock x:Name="Kind" VerticalAlignment="Center" FontSize="40">CPA</TextBlock>
+                <TextBlock x:Name="Cost" VerticalAlignment="Center">1000</TextBlock>
+                <TextBlock x:Name="Fee" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
